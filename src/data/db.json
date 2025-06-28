@@ -1,0 +1,37 @@
+[
+  {
+    "author": "Alice Johnson",
+    "timestamp": "2024-06-10T14:23:00Z",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "image": "/images/User1.svg",
+    "emoji": "🚀"
+  },
+  {
+    "author": "Brian Lee",
+    "timestamp": "2024-06-09T09:15:00Z",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "image": "/images/User2.svg",
+    "emoji": "🥾"
+  },
+  {
+    "author": "Carla Gomez",
+    "timestamp": "2024-06-08T18:45:00Z",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "image": "/images/User3.svg",
+    "emoji": "📚"
+  },
+  {
+    "author": "David Kim",
+    "timestamp": "2024-06-07T21:30:00Z",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "image": "",
+    "emoji": "🍲"
+  },
+  {
+    "author": "Emily Chen",
+    "timestamp": "2024-06-06T11:05:00Z",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "image": "",
+    "emoji": "🗣️"
+  }
+]
