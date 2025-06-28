@@ -1,54 +1,63 @@
-# React + TypeScript + Vite
+# Atlys Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A social feed application built with React 18, TypeScript, Tailwind CSS 4, and Supabase authentication.
 
-Currently, two official plugins are available:
+## Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: v18.3.1
+- **TypeScript**: v5.8.3
+- **Tailwind CSS**: v4.1.10
+- **Supabase**: v2.50.2
+- **Vite**: v6.3.5
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- User authentication (login/signup)
+- Social feed with posts
+- Create new posts with emoji support
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Login Credentials
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Use the credentials specified in the [assignment document](https://goatlys.notion.site/Atlys-Frontend-Hiring-Task-20ed57ef738880f7a56ec4bdfab0c246).
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+## Design Implementation
+
+The UI was implemented following the [Figma design](https://www.figma.com/design/9il6CZ3STFOcYutSsGNA2v/Front-end-hiring-assignment?node-id=0-1&p=f&t=PYXfud7ehEetpIQD-0) as closely as possible, including colors, fonts, and component structure.
+
+## Project Structure
+
 ```
+src/
+├── assets/       # Static assets (images, icons)
+├── components/   # Reusable UI components
+├── context/      # React context (AuthContext)
+├── hooks/        # Custom hooks
+├── layouts/      # Layout components
+├── pages/        # Page components
+├── types/        # TypeScript type definitions
+├── utils/        # Utility functions
+└── provider/     # Provider components
+```
+
+## Notes
+
+- The UI was manually implemented using Tailwind CSS classes
+- Supabase integration and some helper functions were implemented with AI assistance
+- Design is not responsive due to timeline constraints
+
+## Repository
+
+[GitHub Repository](https://github.com/devanshsaini/posts-demo)
