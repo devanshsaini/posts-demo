@@ -61,5 +61,4 @@ src/
 ## Repository & Deployment
 
 - [GitHub Repository](https://github.com/devanshsaini/posts-demo)
-- [Live Demo (Primary URL)](https://posts-demo-git-main-devansh95hotmailcoms-projects.vercel.app?_vercel_share=dMhrWdvVygezFmDla23giCH78BFuxzyZ)
-- [Live Demo (Alternate URL)](https://posts-demo-chnz8nc56-devansh95hotmailcoms-projects.vercel.app/home) (If the primary URL doesn't work, try logging into a Vercel account first)
+- [Live Demo](https://atlys-demo.netlify.app/home)
