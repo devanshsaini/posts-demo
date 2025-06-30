@@ -16,11 +16,11 @@ function App() {
           <AtlysLayout />
           <Routes>
             <Route path="/home" element={<Feed />} />
+            <Route path="/" element={<Navigate to="/home" replace />} />
             <Route element={<PublicRoutes />}>
               <Route path="/login" element={<SignIn />} />
               <Route path="/register" element={<SignUp />} />
             </Route>
-            <Route path="/" element={<Navigate to="/home" replace />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
