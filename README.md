@@ -58,6 +58,8 @@ src/
 - Supabase integration and some helper functions were implemented with AI assistance
 - Design is not responsive due to timeline constraints
 
-## Repository
+## Repository & Deployment
 
-[GitHub Repository](https://github.com/devanshsaini/posts-demo)
+- [GitHub Repository](https://github.com/devanshsaini/posts-demo)
+- [Live Demo (Primary URL)](https://posts-demo-git-main-devansh95hotmailcoms-projects.vercel.app?_vercel_share=dMhrWdvVygezFmDla23giCH78BFuxzyZ)
+- [Live Demo (Alternate URL)](https://posts-demo-chnz8nc56-devansh95hotmailcoms-projects.vercel.app/home) (If the primary URL doesn't work, try logging into a Vercel account first)
